@@ -28,7 +28,7 @@ or download the css on github and include in your project.
   .img-turn-315 { image-orientation: 315deg; }
   .img-turn-360 { image-orientation: 360deg; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .img-turn-45-ns  { image-orientation: 45deg;  }
   .img-turn-90-ns  { image-orientation: 90deg;  }
   .img-turn-135-ns { image-orientation: 135deg; }
@@ -39,7 +39,7 @@ or download the css on github and include in your project.
   .img-turn-360-ns { image-orientation: 360deg; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .img-turn-45-m  { image-orientation: 45deg;  }
   .img-turn-90-m  { image-orientation: 90deg;  }
   .img-turn-135-m { image-orientation: 135deg; }
@@ -50,7 +50,7 @@ or download the css on github and include in your project.
   .img-turn-360-m { image-orientation: 360deg; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .img-turn-45-l  { image-orientation: 45deg;  }
   .img-turn-90-l  { image-orientation: 90deg;  }
   .img-turn-135-l { image-orientation: 135deg; }
