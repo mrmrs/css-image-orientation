@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-image-orientation)
 ## File Size
 
 1.7K image-orientation.css
-1.4K image-orientation.min.css
+1.4K image-orientation.min.css 
+249B minified and gzipped
 
 ## The Code
 ```
