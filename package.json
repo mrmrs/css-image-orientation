@@ -1,5 +1,6 @@
 {
   "name": "css-image-orientation",
+  "style": "image-orientation.css",
   "version": "0.0.4",
   "homepage": "http://github.com/mrmrs/css-image-orientation",
   "description": "Css module of single purpose classes for image orientation",
