@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.4"
+    "tachyons-cli": "^1.0.8"
   },
   "scripts": {
     "start": "tachyons src/css-image-orientation.css > css/css-image-orientation.css && tachyons src/css-image-orientation.css --minify > css/css-image-orientation.min.css && tachyons src/css-image-orientation.css --generate-docs --package=../../package.json > readme.md"
