@@ -12,14 +12,14 @@
   .img-turn-360 { image-orientation: 360deg; }
 
 @media screen and (min-width: 48em) {
-  .img-turn-45-ns  { image-orientation: 45deg;  }
-  .img-turn-90-ns  { image-orientation: 90deg;  }
-  .img-turn-135-ns { image-orientation: 135deg; }
-  .img-turn-180-ns { image-orientation: 180deg; }
-  .img-turn-225-ns { image-orientation: 225deg; }
-  .img-turn-270-ns { image-orientation: 270deg; }
-  .img-turn-315-ns { image-orientation: 315deg; }
-  .img-turn-360-ns { image-orientation: 360deg; }
+  .img-turn-45-s  { image-orientation: 45deg;  }
+  .img-turn-90-s  { image-orientation: 90deg;  }
+  .img-turn-135-s { image-orientation: 135deg; }
+  .img-turn-180-s { image-orientation: 180deg; }
+  .img-turn-225-s { image-orientation: 225deg; }
+  .img-turn-270-s { image-orientation: 270deg; }
+  .img-turn-315-s { image-orientation: 315deg; }
+  .img-turn-360-s { image-orientation: 360deg; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
