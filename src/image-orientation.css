@@ -11,7 +11,7 @@
   .img-turn-315 { image-orientation: 315deg; }
   .img-turn-360 { image-orientation: 360deg; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .img-turn-45-s  { image-orientation: 45deg;  }
   .img-turn-90-s  { image-orientation: 90deg;  }
   .img-turn-135-s { image-orientation: 135deg; }
@@ -22,7 +22,7 @@
   .img-turn-360-s { image-orientation: 360deg; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .img-turn-45-m  { image-orientation: 45deg;  }
   .img-turn-90-m  { image-orientation: 90deg;  }
   .img-turn-135-m { image-orientation: 135deg; }
@@ -33,7 +33,7 @@
   .img-turn-360-m { image-orientation: 360deg; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .img-turn-45-l  { image-orientation: 45deg;  }
   .img-turn-90-l  { image-orientation: 90deg;  }
   .img-turn-135-l { image-orientation: 135deg; }
