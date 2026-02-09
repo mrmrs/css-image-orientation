@@ -1,38 +1,44 @@
 {
   "name": "css-image-orientation",
-  "style": "image-orientation.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-image-orientation",
-  "description": "Css module of single purpose classes for image orientation",
+  "version": "2.0.0",
+  "description": "Functional CSS for image-orientation",
+  "style": "dist/image-orientation.css",
+  "main": "dist/image-orientation.css",
+  "exports": {
+    ".": "./dist/image-orientation.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "image-orientation"
+    "image-orientation",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-image-orientation": {
+  "homepage": "https://github.com/mrmrs/css-image-orientation",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-image-orientation.git"
+    "url": "https://github.com/mrmrs/css-image-orientation.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-image-orientation/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-image-orientation/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
